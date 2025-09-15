@@ -1,0 +1,22 @@
+body {
+  background: radial-gradient(circle at top, #0f0f3d, #000000);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.glow {
+  text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff, 0 0 40px #00f0ff;
+}
+.glow-img {
+  box-shadow: 0 0 30px #00f0ff;
+}
+#welcome-screen {
+  transition: opacity 1s ease;
+}
+.welcome-left {
+  transform: translateX(-100px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.welcome-right {
+  transform: translateX(100px);
+  transition: opacity 1s ease, transform 1s ease;
+}
